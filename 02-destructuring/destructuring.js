@@ -1,22 +1,22 @@
-function blackFridayAlert({item, off = 10, hour = 24}) {
-  return `${item} taniej o ${off}% do godziny ${hour}`
+function blackFridayAlert() {
+  return `coś taniej o X% do godziny HH`
 }
 
 
-function getRanking([a, b, c]) {
+function getRanking(arr) {
   return `
-    1: ${a}
-    2: ${b}
-    3: ${c}
+    1: ${arr[0]}
+    2: ddd
+    3: ddd
   `
 }
 
 
-function getFilmRating({title, rating: {cast = 0, music = 0, script = 0}}) {
+function getFilmRating() {
   return `
-    Oceny dla filmu ${title}:
-    Obsada: ${cast}
-    Muzyka: ${music}
-    Scenariusz: ${script}
+    Oceny dla filmu XYZ:
+    Obsada: aaa
+    Muzyka: bbb
+    Scenariusz: ccc
   `
 }
