@@ -1,8 +1,4 @@
-function blackFridayAlert({
-  item,
-  off = 10,
-  hour = 24
-}) {
+function blackFridayAlert({item, off = 10, hour = 24}) {
   return `${item} taniej o ${off}% do godziny ${hour}`
 }
 
