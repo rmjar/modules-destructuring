@@ -5,12 +5,11 @@ function findMaxAndMin(arr) {
   }
 }
 
-
-function printRanking([a, b, c, ...rest]) {
+function printRanking([first, second, third, ...rest]) {
   return `
-    I miejsce: ${a}
-    II miejsce: ${b}
-    III miejsce: ${c}
-    pozostali: ${rest.join(' ')}
+    I miejsce: ${first}
+    II miejsce: ${second}
+    III miejsce: ${third}
+    pozostali: ${rest.join(` `)}
   `
 }
